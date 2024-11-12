@@ -1,0 +1,276 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+p, h1 {
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    color: black; /* Цвет текста */
+    padding: 5px 10px; /* Отступы */
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between; /* Размещает логотип и навигацию по краям */
+    align-items: center; /* Выравнивание по вертикали */
+}
+
+.logo {
+    display: flex;
+    align-items: center; /* Центрирует логотип и текст по вертикали */ 
+}
+
+.logo h1 {
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+}
+
+.logo img {
+    margin-right: 10px; /* Отступ между логотипом и текстом */
+}
+
+nav ul {
+    list-style-type: none; /* Убирает маркеры списка */
+    padding: 0px; /* Убирает внутренние отступы */
+    margin: 0px; /* Убирает внешние отступы */
+}
+
+nav ul li {
+    display: inline; /* Размещает элементы списка в строку */
+    margin-left: 15px; /* Отступ между пунктами меню */
+    padding-right: 15px;
+}
+
+.sign-button button {
+    text-decoration: none; /* Убирает подчеркивание */
+    font-size: 18px; /* Размер шрифта */
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#sign-in {
+    width: 120px;
+    height: 40px; 
+    color: white;
+    border-color:white;
+    background-color: black;
+    border-radius: 16px;
+}
+
+#sign-up {
+    width: 120px;
+    height: 40px; 
+    border-color:black;
+    border-radius: 16px;
+}
+
+nav ul li a {
+    color: black; /* Цвет ссылок */
+    text-decoration: none; /* Убирает подчеркивание */
+    font-size: 18px; /* Размер шрифта */
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sign-button button:hover {
+    transform: scale(0.98);
+}
+
+
+
+
+
+
+
+
+main {
+    font-family: Arial, sans-serif;
+    color: #333; /* Цвет текста */
+}
+
+.hero {
+    background-color: #000; /* Черный фон */
+    color: #fff; /* Белый текст */
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 36px; /* Размер заголовка */
+    margin-bottom: 20px; /* Отступ снизу */
+}
+
+.hero p {
+    font-size: 18px; /* Размер текста */
+    margin-bottom: 30px; /* Отступ снизу */
+}
+
+.btn {
+    background-color: #fff; /* Белая кнопка */
+    color: #000; /* Черный текст */
+    padding: 10px 20px;
+    text-decoration: none; /* Убирает подчеркивание */
+    border-radius: 5px; /* Закругленные углы */
+    transition: background-color 0.3s; /* Плавный переход */
+}
+
+.btn:hover {
+    background-color: #ccc; /* Серый фон при наведении */
+}
+
+.featured-products {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.featured-products h2 {
+    font-size: 28px; /* Размер заголовка */
+    margin-bottom: 30px; /* Отступ снизу */
+}
+
+.product-grid {
+    display: flex; /* Используем flexbox для центрирования */
+    flex-wrap: wrap; /* Позволяет элементам переноситься на новую строку */
+    justify-content: center; /* Центрует элементы по горизонтали */
+    gap: 20px; /* Отступ между элементами */
+}
+
+.product {
+    background-color: #f9f9f9; /* Светлый фон для продукта */
+    border: 1px solid #ccc; /* Серый бордер */
+    border-radius: 5px; /* Закругленные углы */
+    padding: 15px; /* Отступы внутри продукта */
+    text-align: center; /* Центрирование текста */
+    width: 200px; /* Фиксированная ширина карточки */
+}
+
+.product img {
+    max-width: 100%; /* Адаптивное изображение */
+    height: auto; /* Автоматическая высота */
+}
+
+.product h3 {
+    font-size: 20px; /* Размер заголовка продукта */
+    margin: 10px 0; /* Отступы */
+}
+
+.product .price {
+    font-size: 18px; /* Размер цены */
+    color: #000; /* Черный цвет цены */
+    font-weight: bold; /* Жирный текст */
+}
+
+
+
+
+main {
+    font-family: Arial, sans-serif;
+    color: #333; /* Цвет текста */
+}
+
+.hero {
+    background-color: #000; /* Черный фон */
+    color: #fff; /* Белый текст */
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 36px; /* Размер заголовка */
+    margin-bottom: 20px; /* Отступ снизу */
+}
+
+.hero p {
+    font-size: 18px; /* Размер текста */
+    margin-bottom: 30px; /* Отступ снизу */
+}
+
+.btn {
+    background-color: #fff; /* Белая кнопка */
+    color: #000; /* Черный текст */
+    padding: 10px 20px;
+    text-decoration: none; /* Убирает подчеркивание */
+    border-radius: 5px; /* Закругленные углы */
+    transition: background-color 0.3s; /* Плавный переход */
+}
+
+.btn:hover {
+    background-color: #ccc; /* Серый фон при наведении */
+}
+
+.featured-products {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.featured-products h2 {
+    font-size: 28px; /* Размер заголовка */
+    margin-bottom: 30px; /* Отступ снизу */
+}
+
+.product-grid {
+    display: flex; /* Используем flexbox для центрирования */
+    flex-wrap: wrap; /* Позволяет элементам переноситься на новую строку */
+    justify-content: center; /* Центрует элементы по горизонтали */
+    gap: 20px; /* Отступ между элементами */
+}
+
+.product {
+    background-color: #f9f9f9; /* Светлый фон для продукта */
+    border: 1px solid #ccc; /* Серый бордер */
+    border-radius: 5px; /* Закругленные углы */
+    padding: 15px; /* Отступы внутри продукта */
+    text-align: center; /* Центрирование текста */
+    width: 200px; /* Фиксированная ширина карточки */
+}
+
+.product img {
+    max-width: 100%; /* Адаптивное изображение */
+    height: auto; /* Автоматическая высота */
+}
+
+.product h3 {
+    font-size: 20px; /* Размер заголовка продукта */
+    margin: 10px 0; /* Отступы */
+}
+
+.product .price {
+    font-size: 18px; /* Размер цены */
+    color: #000; /* Черный цвет цены */
+    font-weight: bold; /* Жирный текст */
+}
+
+
+
+.about-store, .product-info {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.store-card, .info-card {
+    background-color: #f9f9f9; /* Светлый фон для карточки */
+    border: 1px solid #ccc; /* Серый бордер */
+    border-radius: 5px; /* Закругленные углы */
+    padding: 20px; /* Отступы внутри карточки */
+    margin: 20px auto; /* Центрирование карточки */
+    max-width: 940px; /* Максимальная ширина карточки */
+}
+
+.store-card h2, .info-card h2 {
+    font-size: 24px; /* Размер заголовка */
+    margin-bottom: 15px; /* Отступ снизу */
+}
+
+.store-card p, .info-card p {
+    font-size: 16px; /* Размер текста */
+    line-height: 1.5; /* Межстрочный интервал */
+}
