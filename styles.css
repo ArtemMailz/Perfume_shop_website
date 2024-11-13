@@ -86,12 +86,6 @@ nav ul li a {
 }
 
 
-
-
-
-
-
-
 main {
     font-family: Arial, sans-serif;
     color: #333; /* Цвет текста */
@@ -112,6 +106,19 @@ main {
 .hero p {
     font-size: 18px; /* Размер текста */
     margin-bottom: 30px; /* Отступ снизу */
+}
+
+.btn {
+    background-color: #fff; /* Белая кнопка */
+    color: #000; /* Черный текст */
+    padding: 10px 20px;
+    text-decoration: none; /* Убирает подчеркивание */
+    border-radius: 5px; /* Закругленные углы */
+    transition: background-color 0.3s; /* Плавный переход */
+}
+
+.btn:hover {
+    background-color: #ccc; /* Серый фон при наведении */
 }
 
 .btn {
@@ -168,88 +175,6 @@ main {
     color: #000; /* Черный цвет цены */
     font-weight: bold; /* Жирный текст */
 }
-
-
-
-
-main {
-    font-family: Arial, sans-serif;
-    color: #333; /* Цвет текста */
-}
-
-.hero {
-    background-color: #000; /* Черный фон */
-    color: #fff; /* Белый текст */
-    padding: 50px 20px;
-    text-align: center;
-}
-
-.hero h2 {
-    font-size: 36px; /* Размер заголовка */
-    margin-bottom: 20px; /* Отступ снизу */
-}
-
-.hero p {
-    font-size: 18px; /* Размер текста */
-    margin-bottom: 30px; /* Отступ снизу */
-}
-
-.btn {
-    background-color: #fff; /* Белая кнопка */
-    color: #000; /* Черный текст */
-    padding: 10px 20px;
-    text-decoration: none; /* Убирает подчеркивание */
-    border-radius: 5px; /* Закругленные углы */
-    transition: background-color 0.3s; /* Плавный переход */
-}
-
-.btn:hover {
-    background-color: #ccc; /* Серый фон при наведении */
-}
-
-.featured-products {
-    padding: 50px 20px;
-    text-align: center;
-}
-
-.featured-products h2 {
-    font-size: 28px; /* Размер заголовка */
-    margin-bottom: 30px; /* Отступ снизу */
-}
-
-.product-grid {
-    display: flex; /* Используем flexbox для центрирования */
-    flex-wrap: wrap; /* Позволяет элементам переноситься на новую строку */
-    justify-content: center; /* Центрует элементы по горизонтали */
-    gap: 20px; /* Отступ между элементами */
-}
-
-.product {
-    background-color: #f9f9f9; /* Светлый фон для продукта */
-    border: 1px solid #ccc; /* Серый бордер */
-    border-radius: 5px; /* Закругленные углы */
-    padding: 15px; /* Отступы внутри продукта */
-    text-align: center; /* Центрирование текста */
-    width: 200px; /* Фиксированная ширина карточки */
-}
-
-.product img {
-    max-width: 100%; /* Адаптивное изображение */
-    height: auto; /* Автоматическая высота */
-}
-
-.product h3 {
-    font-size: 20px; /* Размер заголовка продукта */
-    margin: 10px 0; /* Отступы */
-}
-
-.product .price {
-    font-size: 18px; /* Размер цены */
-    color: #000; /* Черный цвет цены */
-    font-weight: bold; /* Жирный текст */
-}
-
-
 
 .about-store, .product-info {
     padding: 50px 20px;
@@ -273,4 +198,41 @@ main {
 .store-card p, .info-card p {
     font-size: 16px; /* Размер текста */
     line-height: 1.5; /* Межстрочный интервал */
+}
+
+
+footer {
+    background-color: #fff; /* Белый фон */
+    padding: 20px 0; /* Отступы сверху и снизу */
+    text-align: center; /* Центрирование текста */
+}
+
+.footer-content {
+    max-width: 1200px; /* Максимальная ширина футера */
+    margin: 0 auto; /* Центрирование футера */
+    padding: 0 20px; /* Отступы по бокам */
+}
+
+.footer-content p {
+    margin: 10px 0; /* Отступы между абзацами */
+    font-size: 14px; /* Размер текста */
+}
+
+.social-icons {
+    margin-top: 10px; /* Отступ сверху */
+}
+
+footer a {
+    color: #000;
+}
+
+.social-icon {
+    width: 48px; /* Ширина иконки */
+    height: 48px; /* Высота иконки */
+    margin: 0 10px; /* Отступы между иконками */
+    transition: transform 0.3s; /* Плавный переход при наведении */
+}
+
+.social-icon:hover {
+    transform: scale(1.1); /* Увеличение иконки при наведении */
 }
